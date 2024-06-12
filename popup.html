@@ -25,4 +25,31 @@
       margin-bottom: 20px;
     }
     button {
-      paddi
+      padding: 10px 20px;
+      font-size: 14px;
+      background-color: #0078d7;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-bottom: 10px;
+    }
+    button:hover {
+      background-color: #0053a0;
+    }
+    #result {
+      margin-top: 20px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Fingerprint Checker</h1>
+  <p>Detects fingerprinting behavior</p>
+  <button id="checkBtn">Check Fingerprint</button>
+  <button id="downloadBtn">Download Logs</button>
+  <div id="result"></div>
+  <script src="popup.js"></script>
+</body>
+</html>

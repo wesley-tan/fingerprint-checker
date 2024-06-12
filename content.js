@@ -1,3 +1,5 @@
+// This file is now unnecessary
+
 console.log("Content script running");
 
 // Function to detect fingerprinting libraries
